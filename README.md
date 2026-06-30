@@ -37,7 +37,8 @@ input history — it provides **fading memory**. Only a simple **readout** is
 trained to map reservoir states to the desired output. This is the core idea of
 Echo State Networks (ESNs) and, for spiking neurons, **Liquid State Machines
 (LSMs)**. Training is cheap and stable because the hard, recurrent part is never
-trained — you just fit a linear (or here, locally-learned) readout on top.
+trained — you just fit a linear (or here, locally-learned) readout on top. 
+[Some work](https://arxiv.org/html/2407.04076v2) uses Legendre Memory Units for such encoding.
 
 ## 2. Why spiking reservoirs for temporal data?
 
