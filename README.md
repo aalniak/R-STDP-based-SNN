@@ -1,4 +1,4 @@
-# rstpd_spiking_reservoir_timeseries
+# Spiking reservoir computing with an R-STDP-trained readout
 
 **Reservoir-based spiking time-series processing + R-STDP (reward-modulated STDP /
 three-factor) local learning — a CPU/GPU research prototype.**
