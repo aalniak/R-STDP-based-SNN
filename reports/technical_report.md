@@ -1,10 +1,6 @@
 # Reservoir-based Spiking Time-Series Processing with R-STDP Local Learning
 ### Technical report — CPU/GPU prototype
 
-> **This is a CPU/GPU prototype for reservoir-based spiking time-series processing
-> and R-STDP learning. It is designed with Loihi-2/Lava deployment in mind, but it
-> is not claimed as an actual Loihi-2 implementation unless run on the Loihi-2
-> backend.**
 
 ---
 
@@ -26,8 +22,7 @@ This project explores an alternative aimed squarely at on-chip compatibility:
 
 We benchmark this against the classical linear reservoir-computing readout, an
 off-chip surrogate-gradient SNN, and a GRU reference, and we quantify spike
-activity, parameter counts and quantization robustness — the quantities that
-actually matter for an eventual Loihi-2 port.
+activity, parameter counts and quantization robustness.
 
 ## 2. Architecture
 
